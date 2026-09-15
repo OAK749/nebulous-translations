@@ -1,12 +1,16 @@
 # nebulous-translations
 
 ## Purpose
-The sole purpose of this repository is to allow Nebulous players to collectively improve the translated text used in Nebulous.io [[Android](https://play.google.com/store/apps/details?id=software.simplicial.nebulous)][[iOS](https://apps.apple.com/us/app/nebulous-io/id1069691018)]. Include your Nebulous ID in your commit message and you will be granted the translator tag in the game and discord.
+The sole purpose of this repository is to allow Nebulous players to collectively improve the translated text used in Nebulous.io [[Android](https://play.google.com/store/apps/details?id=software.simplicial.nebulous)][[iOS](https://apps.apple.com/us/app/nebulous-io/id1069691018)]. Include your Nebulous ID in your PR (Pull Request) comments and you may be granted the translator tag in the game and discord after your PR is approved and merged. **Low quality translations (those receiving a high number of comments compared to the number of translations done), will not receive a tag.**
 
 ## Instructions
 If you have general questions or a suggestion, create an [issue](https://github.com/simplicialsoftware/nebulous-translations/issues). You can also submit a [suggestion](https://discord.com/channels/941543004026572811/941680724963123200) in the discord.
 
 If you have an improvement to make, edit a file and submit a pull request. Pay special attention to the use of placeholders (ex: `%`) and formatting. Changes to the formatting of the file will not be accepted.
+
+### Translation Tutorial Videos
+- [PC](https://youtu.be/ct_ZGtD9rZw)
+- [Mobile](https://youtu.be/LiXGfdUxgyM)
 
 ### Organization
 Open the `res` folder to see all of the supported languages. `res/values` contains the English strings used as the default for any non-translated strings. Translations should be based on that file.
@@ -15,6 +19,63 @@ Open the `res` folder to see all of the supported languages. `res/values` contai
 - Only edit files for which you are a native speaker or have fluency.
 - Try not to change the *length* of a string too much from the length in the English version. The app UI layout is tested with those string lengths.
 - **Do not** submit auto translations (Google Translate, Chat GPT, etc). This is not helpful.
+- Adding comments to your PR that explains why subtle changes were made can help. If you are revising something that is already translated, an explanation is **required**.
+
+### Languages
+`res/values`: English<br>
+`res/values-af`: Afrikaans<br>
+`res/values-ar`: Arabic<br>
+`res/values-az`: Azerbaijani<br>
+`res/values-b+es+r419`: Spanish (Latin America)<br>
+`res/values-bg`: Bulgarian<br>
+`res/values-bn`: Bengali<br>
+`res/values-bs`: Bosnian<br>
+`res/values-ca`: Catalan<br>
+`res/values-cs`: Czech<br>
+`res/values-da`: Danish<br>
+`res/values-de`: German<br>
+`res/values-el`: Greek<br>
+`res/values-es`: Spanish<br>
+`res/values-et`: Estonian<br>
+`res/values-fi`: Finnish<br>
+`res/values-fr`: French<br>
+`res/values-ga`: Irish<br>
+`res/values-hi`: Hindi<br>
+`res/values-hr`: Croatian<br>
+`res/values-hu`: Hungarian<br>
+`res/values-in`: Indonesian<br>
+`res/values-is`: Icelandic<br>
+`res/values-it`: Italian<br>
+`res/values-ja`: Japanese<br>
+`res/values-ka`: Georgian<br>
+`res/values-kk`: Kazakh<br>
+`res/values-ko`: Korean<br>
+`res/values-ku`: Kurdish (Kurdî)<br>
+`res/values-lt`: Lithuanian<br>
+`res/values-lv`: Latvian<br>
+`res/values-mk`: Macedonian<br>
+`res/values-mr`: Marathi<br>
+`res/values-ms`: Malay<br>
+`res/values-nl`: Dutch<br>
+`res/values-no`: Norwegian<br>
+`res/values-pl`: Polish<br>
+`res/values-pt-rBR`: Portuguese (Brazil)<br>
+`res/values-pt-rPT`: Portuguese (Portugal)<br>
+`res/values-ro`: Romanian<br>
+`res/values-ru`: Russian<br>
+`res/values-si`: Sinhala<br>
+`res/values-sk`: Slovak<br>
+`res/values-sq`: Albanian<br>
+`res/values-sr`: Serbian<br>
+`res/values-sv`: Swedish<br>
+`res/values-ta`: Tamil<br>
+`res/values-th`: Thai<br>
+`res/values-tl`: Tagalog (Pilipino)<br>
+`res/values-tr`: Turkish<br>
+`res/values-uk`: Ukrainian<br>
+`res/values-vi`: Vietnamese<br>
+`res/values-zh-rCN`: Chinese (Simplified)<br>
+`res/values-zh-rTW`: Chinese (Traditional)<br>
 
 #### Translation tips
 When translating content, especially in a consistent and systematic manner, it's important to adhere to the following general tips:
@@ -42,61 +103,6 @@ When translating content, especially in a consistent and systematic manner, it's
    - Ideally, have another person who is fluent in the language review the translation to catch any inconsistencies or errors you might have missed. 
 
 You can always message @critikangel on Discord for help, advice, or support.
-
-### Languages
-`res/values`: English<br>
-`res/values-af`: Afrikaans<br>
-`res/values-ar`: Arabic<br>
-`res/values-ar-rIQ`: Arabic (Iraq)<br>
-`res/values-az`: Azerbaijani<br>
-`res/values-b+es+r419`: Spanish (Latin America)<br>
-`res/values-bg`: Bulgarian<br>
-`res/values-bn`: Bengali<br>
-`res/values-bs`: Bosnian<br>
-`res/values-ca`: Catalan<br>
-`res/values-cs`: Czech<br>
-`res/values-da`: Danish<br>
-`res/values-de`: German<br>
-`res/values-el`: Greek<br>
-`res/values-es`: Spanish<br>
-`res/values-et`: Estonian<br>
-`res/values-fi`: Finnish<br>
-`res/values-fr`: French<br>
-`res/values-ga`: Irish<br>
-`res/values-hi`: Hindi<br>
-`res/values-hr`: Croatian<br>
-`res/values-hu`: Hungarian<br>
-`res/values-in`: Indonesian<br>
-`res/values-is`: Icelandic<br>
-`res/values-it`: Italian<br>
-`res/values-ja`: Japanese<br>
-`res/values-ka`: Georgian<br>
-`res/values-ko`: Korean<br>
-`res/values-lt`: Lithuanian<br>
-`res/values-lv`: Latvian<br>
-`res/values-mk`: Macedonian<br>
-`res/values-mr`: Marathi<br>
-`res/values-ms`: Malay<br>
-`res/values-nl`: Dutch<br>
-`res/values-no`: Norwegian<br>
-`res/values-pl`: Polish<br>
-`res/values-pt-rBR`: Portuguese (Brazil)<br>
-`res/values-pt-rPT`: Portuguese (Portugal)<br>
-`res/values-ro`: Romanian<br>
-`res/values-ru`: Russian<br>
-`res/values-si`: Sinhala<br>
-`res/values-sk`: Slovak<br>
-`res/values-sq`: Albanian<br>
-`res/values-sr`: Serbian<br>
-`res/values-sv`: Swedish<br>
-`res/values-ta`: Tamil<br>
-`res/values-th`: Thai<br>
-`res/values-tl`: Tagalog<br>
-`res/values-tr`: Turkish<br>
-`res/values-uk`: Ukrainian<br>
-`res/values-vi`: Vietnamese<br>
-`res/values-zh-rCN`: Chinese (Simplified)<br>
-`res/values-zh-rTW`: Chinese (Traditional)
 
 ## Frequently Asked Questions
 #### I saw an untranslated string in Nebulous. It's not in any of the files here. What do I do?
